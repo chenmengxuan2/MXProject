@@ -1,0 +1,12 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+source 'http://172.16.0.101:3000/chenmengxuan/TQNetworking.git'
+source 'http://172.16.0.101:3000/lichenyu/TuQiangSpecs.git'
+target 'PodTest' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PodTest
+  pod 'TQNetworking'
+
+end
